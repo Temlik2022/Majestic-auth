@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+#wrapper {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #1e2124;
+}
+#wrapper img {
+    margin-top: 80px;
+}
+#wrapper #header {
+    margin-top: 30px;
+}
+#wrapper #header p {
+    color: white;
+    cursor: default;
+}
+#wrapper form {
+    margin-top: 40px;
+}
+#wrapper form input {
+    width: 440px;
+    height: 55px;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: default;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #181a1d;
+    font-size: 20px;
+}
+#wrapper #buttons button {
+    width: 212px;
+    height: 55px;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    background-color: #35383a;
+    font-size: 20px;
+    transition: 0.2s;
+}
+#wrapper #buttons button:first-child {
+    margin-right: 10px;
+}
+#wrapper #buttons button:hover {
+    background-color: #e81c5a;
+}
+#wrapper #footer {
+    margin-top: 22px;
+}
+#wrapper #footer span {
+    font-size: 20px;
+    cursor: default;
+}
+#wrapper #footer span:first-child {
+    color: #8e9091;
+    margin-right: 5px;
+}
+#wrapper #footer span:last-child {
+    color: #e81c5a;
+}
